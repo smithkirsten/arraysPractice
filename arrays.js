@@ -13,3 +13,9 @@ console.log(numbers.push(27, 33));
 
 //This will remove the first element from the array and print its value to the console
 console.log(booleans.shift());
+
+//Index positions begin their count at zero, so the first element in each array is in the index position 0
+//Because we begin counting at 0, the index position of the last element is n -1 (n being the numner of elements included in the array)
+//so, if I wanted to print the third and last elements of the strings array, I would call them as follows:
+
+console.log(strings[2], strings[4]);
